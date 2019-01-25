@@ -1,0 +1,26 @@
+{
+  "name": "ac-traceroute",
+  "version": "0.0.1",
+  "description": "A simple tool to show trace to a given IP, including country",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "mmpro/ac-traceroute"
+  },
+  "homepage": "https://www.admiralcloud.com",
+  "keywords": [
+    "traceroute",
+    "admiralcloud"
+  ],
+  "author": "Mark Poepping (https://www.mmpro.de)",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.6.1",
+    "geoip-lite": "^1.3.5",
+    "lodash": "^4.17.11",
+    "minimist": "^1.2.0"
+  }
+}
